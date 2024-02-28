@@ -63,7 +63,7 @@ As contact centers adopt richer desktop solutions called "workspaces," enterpris
 </main>
 
 
-<style>
+<style >
 #maturity-model * { font-family: monospace, sans-serif; font-size: 0.7rem; }
 
 #maturity-modelh1 { text-align: center; font-size: 2rem; }
