@@ -3,7 +3,23 @@
 As contact centers adopt richer desktop solutions called "workspaces," enterprises should evaluate their needs against key considerations. This maturity model from Coral allows assessment of your current situation and future needs. Key factors include consolidating applications into a single pane of glass for efficiency; customizing experiences for different roles and segments; leveraging automation technologies like RPA, workflows, and orchestration to boost productivity; providing AI assistance to agents; ensuring user adoption with agile, incremental updates; and enabling gradual migration to the cloud. Assessing these elements will position you to deliver excellent customer experiences. 
 
 
-<div id="maturity-model">
+<main id="maturity-model">
+
+    <caption>
+        <div style="float: left">Ed 1.0</div>
+
+        <div style="float: center">
+            Customer-facing employee workspace maturity model is openly licensed via 
+            <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0</a>.
+        </div>
+
+        <div style="float: right">
+        <a href="https://www.coralactive.com" target="_blank">© 2024 Coral Active</a>
+        </div>
+        
+    </caption>
+    
+
 
 <table>
     <caption>
@@ -44,14 +60,14 @@ As contact centers adopt richer desktop solutions called "workspaces," enterpris
     </tbody>
 </table>
 
-</div>
+</main>
 
 
 <style>
-    body * { font-family: monospace, sans-serif; font-size: 0.7rem; }
+#maturity-model * { font-family: monospace, sans-serif; font-size: 0.7rem; }
 
-h1 { text-align: center; font-size: 2rem; }
-th, td { font-size: 0.7rem; }
+#maturity-modelh1 { text-align: center; font-size: 2rem; }
+#maturity-modelth, td { font-size: 0.7rem; }
 
 /* 
   Columns are:
@@ -62,9 +78,9 @@ th, td { font-size: 0.7rem; }
   5. composable
 */
 
-caption { caption-side: bottom; padding-top: 0.5rem; }
+#maturity-modelcaption { caption-side: bottom; padding-top: 0.5rem; }
 
-th .subheading, caption { font-size: 70%; color: grey; margin-top: 0.3rem; }
+#maturity-model th .subheading, #maturity-model caption { font-size: 70%; color: grey; margin-top: 0.3rem; }
 
 #maturity-model table {
   width: 100%;
@@ -93,8 +109,8 @@ th .subheading, caption { font-size: 70%; color: grey; margin-top: 0.3rem; }
   padding: 5px;
 }
 
-td ul { list-style: none; padding: 0; list-style: none; }
+#maturity-model td ul { list-style: none; padding: 0; list-style: none; }
 
-.tick { font-size: 120%; color: green;  }
+#maturity-model .tick { font-size: 120%; color: green;  }
 
 </style>
