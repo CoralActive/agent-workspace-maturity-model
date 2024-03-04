@@ -59,22 +59,3 @@ td ul li::marker {
   font-size: 120%;
   color: green;
 }
-
-
-/* 
-td ul { 
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0.7rem;
-  text-indent: -0.7rem;
-}
-
-td ul li { padding-left: 0.5rem; }
-
-td li:before {
-  content: "\2714";
-  font-size: 120%;
-  color: green;
-  position: 
-}
- */
