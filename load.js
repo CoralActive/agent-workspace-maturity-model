@@ -24,7 +24,7 @@ $(function () {
     `;
 
   function ul(arr) {
-    return "<ul>" + arr.map(text => `<li><span class='tick'>&#x2714;</span>  ${text}</li>`).join("") + "</ul>"
+    return "<ul>" + arr.map(text => `<li>${text}</li>`).join("") + "</ul>"
   }
 
 

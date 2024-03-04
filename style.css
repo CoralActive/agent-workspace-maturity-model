@@ -36,7 +36,7 @@ th .subheading, caption { font-size: 70%; color: grey; margin-top: 0.3rem; }
 #maturity-model table th:nth-child(4) { width: 21%; background-color: rgb(166, 205, 241); }
 #maturity-model table th:nth-child(5) { width: 21%; background-color: rgb(109, 180, 229); }
 
-#maturity-model table td:nth-child(1) { font-size: 120%; }
+#maturity-model table td:nth-child(1) { font-size: 120%; font-weight: bold; }
 
 #maturity-model table td, #maturity-model table th {
   border-width: 2px;
@@ -45,6 +45,36 @@ th .subheading, caption { font-size: 70%; color: grey; margin-top: 0.3rem; }
   padding: 5px;
 }
 
-td ul { list-style: none; padding: 0; list-style: none; }
+td ul { 
+  margin: 0;
+  padding-left: 0.5rem;
+  list-style-position: outside;
+}
+td ul li  { 
+  margin-left: 1rem;
+}
 
-.tick { font-size: 120%; color: green;  }
+td ul li::marker {
+  content: "\2714";
+  font-size: 120%;
+  color: green;
+}
+
+
+/* 
+td ul { 
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0.7rem;
+  text-indent: -0.7rem;
+}
+
+td ul li { padding-left: 0.5rem; }
+
+td li:before {
+  content: "\2714";
+  font-size: 120%;
+  color: green;
+  position: 
+}
+ */
