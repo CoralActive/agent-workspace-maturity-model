@@ -1,16 +1,9 @@
-body * { font-family: monospace, sans-serif; font-size: 0.7rem; }
+body * { font-family: sans-serif; font-size: 0.7rem; }
 
 h1 { text-align: center; font-size: 2rem; }
-th, td { font-size: 0.7rem; }
+h1, h2, h3, h4 { font-family: monospace }
 
-/* 
-  Columns are:
-  1. Category
-  2. patchwork
-  3. integrated
-  4. unified
-  5. composable
-*/
+th, td { font-size: 0.7rem; }
 
 caption { caption-side: bottom; padding-top: 0.5rem; }
 
@@ -27,6 +20,15 @@ th .subheading, caption { font-size: 70%; color: grey; margin-top: 0.3rem; }
 }
 
 #maturity-model table th, #maturity-model table td { border-width: 2px; }
+
+/* 
+  Columns are:
+  1. Category
+  2. patchwork
+  3. integrated
+  4. unified
+  5. composable
+*/
 
 #maturity-model table th:nth-child(1) { width: 16%; border-top-width: 0px; border-left: none; }
 #maturity-model table th:nth-child(2) { width: 21%; background-color: rgb(241, 198, 128); }
