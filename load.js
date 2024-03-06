@@ -41,17 +41,19 @@ $(function () {
 
   const caption = $(`
       <caption>
-        <div style="float: left">Ed 1.0</div>
+        <div style="float: left">
+          Ed 1.0
+        </div>
 
-        <vdiv style="float: center">
+        <div style="float: center">
           Customer-facing employee workspace maturity model 
         </div>
 
-        <vdiv style="float: right">
+        <div style="float: right">
           <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0</a>:
           <a href="https://www.coralactive.com">2024 Coral Active</a>
           <br/>
-          <a href="https://github.com/CoralActive/agent-workspace-maturity-model">Comments, changes and source in Github</a>
+          Visit <a href="https://github.com/CoralActive/agent-workspace-maturity-model">Github</a> for discussion, changes and source.
         </div>
       </caption>
     `)
