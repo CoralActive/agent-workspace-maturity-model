@@ -1,10 +1,11 @@
-body * { font-family: sans-serif; font-size: 0.7rem; }
+body * { font-family: sans-serif; font-size: 0.8rem; line-height: 130%; }
 
 h1 { text-align: center; font-size: 2rem; }
 h1, h2, h3, h4 { font-family: monospace }
 
 th, td { font-size: 0.7rem; }
 
+a { text-decoration: none; }
 caption { caption-side: bottom; padding-top: 0.5rem; }
 
 th .subheading, caption { font-size: 70%; color: grey; margin-top: 0.3rem; }
@@ -36,26 +37,36 @@ th .subheading, caption { font-size: 70%; color: grey; margin-top: 0.3rem; }
 #maturity-model table th:nth-child(4) { width: 21%; background-color: rgb(166, 205, 241); }
 #maturity-model table th:nth-child(5) { width: 21%; background-color: rgb(109, 180, 229); }
 
-#maturity-model table td:nth-child(1) { font-size: 120%; font-weight: bold; }
+#maturity-model table td:nth-child(1) { font-size: 120%; font-weight: bold;   vertical-align: middle; }
 
 #maturity-model table td, #maturity-model table th {
   border-width: 2px;
   border-color: #808080;
   border-style: solid;
   padding: 5px;
+  vertical-align: top;
 }
 
 td ul { 
-  margin: 0;
-  padding-left: 0.5rem;
-  list-style-position: outside;
-}
-td ul li  { 
-  margin-left: 1rem;
+  margin: 0.2rem 0.2rem;
+  padding-left: 1.5rem;
+  list-style: none; 
+  /* list-style-position: outside; */
 }
 
-td ul li::marker {
+td ul li  {
+  display: block;
+  /* text-indent: 2rem; */
+  padding: 0rem 0.0rem;
+  line-height: 150%;
+  position: relative;
+}
+
+td ul li::before {
   content: "\2714";
+  font-weight: bold;
   font-size: 120%;
   color: green;
+  position: absolute;
+  left: -1.2rem;
 }
