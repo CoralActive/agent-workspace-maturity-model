@@ -1,25 +1,59 @@
-body * { font-family: sans-serif; font-size: 0.7rem; }
-
-h1 { text-align: center; font-size: 2rem; }
-h1, h2, h3, h4 { font-family: monospace }
-
-th, td { font-size: 0.7rem; }
-
-caption { caption-side: bottom; padding-top: 0.5rem; }
-
-th .subheading, caption { font-size: 70%; color: grey; margin-top: 0.3rem; }
-
-#maturity-model table {
-  width: 100%;
-  background-color: #FFFFFF;
-  border-collapse: collapse;
-  border-width: 0px;
-  border-color: #808080;
-  border-style: solid;
-  color: #000000;
+body {
+    font-family: sans-serif;
+    font-size: 0.7rem;
 }
 
-#maturity-model table th, #maturity-model table td { border-width: 2px; }
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: sans-serif
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 30px 40px;
+}
+
+th,
+td {
+    font-size: 0.7rem;
+}
+
+caption {
+    caption-side: bottom;
+    padding-top: 0.5rem;
+}
+
+th .subheading,
+caption {
+    font-size: 70%;
+    color: rgb(70, 70, 70);
+    margin-top: 0.3rem;
+    font-weight: 100;
+}
+
+#maturity-model table {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 0px;
+    border-color: #808080;
+    border-style: solid;
+    color: #000000;
+}
+
+#maturity-model table th,
+#maturity-model table td {
+    border-width: 2px;
+}
+
 
 /* 
   Columns are:
@@ -30,32 +64,63 @@ th .subheading, caption { font-size: 70%; color: grey; margin-top: 0.3rem; }
   5. composable
 */
 
-#maturity-model table th:nth-child(1) { width: 16%; border-top-width: 0px; border-left: none; }
-#maturity-model table th:nth-child(2) { width: 21%; background-color: rgb(241, 198, 128); }
-#maturity-model table th:nth-child(3) { width: 21%; background-color: rgb(243, 225, 191); }
-#maturity-model table th:nth-child(4) { width: 21%; background-color: rgb(166, 205, 241); }
-#maturity-model table th:nth-child(5) { width: 21%; background-color: rgb(109, 180, 229); }
-
-#maturity-model table td:nth-child(1) { font-size: 120%; font-weight: bold; }
-
-#maturity-model table td, #maturity-model table th {
-  border-width: 2px;
-  border-color: #808080;
-  border-style: solid;
-  padding: 5px;
+#maturity-model table th:nth-child(1) {
+    width: 16%;
+    border-top-width: 0px;
+    border-left: none;
 }
 
-td ul { 
-  margin: 0;
-  padding-left: 0.5rem;
-  list-style-position: outside;
+#maturity-model table th:nth-child(2) {
+    width: 21%;
+    background-color: rgb(241, 198, 128);
 }
-td ul li  { 
-  margin-left: 1rem;
+
+#maturity-model table th:nth-child(3) {
+    width: 21%;
+    background-color: rgb(243, 225, 191);
+}
+
+#maturity-model table th:nth-child(4) {
+    width: 21%;
+    background-color: rgb(166, 205, 241);
+}
+
+#maturity-model table th:nth-child(5) {
+    width: 21%;
+    background-color: rgb(109, 180, 229);
+}
+
+#maturity-model table td:nth-child(1) {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+#maturity-model table td,
+#maturity-model table th {
+    border-width: 2px;
+    border-color: #808080;
+    border-style: solid;
+    padding: 5px;
+}
+
+td ul {
+    margin: 0;
+    padding-left: 0.5rem;
+    list-style-position: outside;
+}
+
+td ul li {
+    margin-left: 1rem;
+    padding-left: 10px;
 }
 
 td ul li::marker {
-  content: "\2714";
-  font-size: 120%;
-  color: green;
+    content: "\2714";
+    font-size: 120%;
+    color: rgb(2, 206, 2);
+}
+
+li,
+th {
+    font-size: 1rem;
 }
