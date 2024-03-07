@@ -41,16 +41,20 @@ $(function () {
 
   const caption = $(`
       <caption>
-        <div style="float: left">Ed 1.0</div>
-
-        <vdiv style="float: center">
-        Customer-facing employee workspace maturity model 
-        is openly licensed via <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0</a>.
+        <div style="float: left">
+          Ed 1.0
         </div>
 
-        <vdiv style="float: right">
-        <a href="https://www.coralactive.com" target="_blank">&copy; 2024 Coral Active</a>
-        </span>
+        <div style="float: center">
+          Customer-facing employee workspace maturity model 
+        </div>
+
+        <div style="float: right">
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0</a>:
+          <a href="https://www.coralactive.com">2024 Coral Active</a>
+          <br/>
+          Visit <a href="https://github.com/CoralActive/agent-workspace-maturity-model">Github</a> for discussion, changes and source.
+        </div>
       </caption>
     `)
 
